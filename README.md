@@ -1,19 +1,31 @@
 
-# React Native iCloud Account Status
+# React Native iCloud Account Status <!-- omit from toc -->
 
 React Native module to determine whether the current user’s iCloud account can be accessed.
 
-## Table of Contents
+## Table of contents <!-- omit from toc -->
 
-* [Getting started](#getting-started)
-  * [Requirements](#requirements)
-  * [Mostly automatic installation](#mostly-automatic-installation)
-  * [Manual installation](#manual-installation)
-* [Usage](#usage)
-* [API](#api)
-  * [Constants](#constants)
-  * [Methods](#methods)
-* [License](#license)
+- [balns internal use](#balns-internal-use)
+  - [Upgrading React Native versions](#upgrading-react-native-versions)
+- [Getting started](#getting-started)
+  - [Requirements](#requirements)
+  - [Mostly automatic installation](#mostly-automatic-installation)
+  - [Manual installation](#manual-installation)
+- [Usage](#usage)
+- [API](#api)
+  - [Constants](#constants)
+  - [Methods](#methods)
+    - [getStatus()](#getstatus)
+- [License](#license)
+
+
+## balns internal use
+
+### Upgrading React Native versions
+
+- The `react-native` package version used in this repo needs to be synchronysed with the other balns dependencies
+- So far, it seems sufficient to increase the package version number in `package.json` (under `peerDependencies`). The version of this package should similarly be incremented with each such change.
+- This repo does not have its own example app, so this cannot be tested in isolation
 
 ## Getting started
 
