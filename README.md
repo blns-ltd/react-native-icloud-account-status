@@ -26,6 +26,7 @@ React Native module to determine whether the current user’s iCloud account can
 - The `react-native` package version used in this repo needs to be synchronysed with the other balns dependencies
 - So far, it seems sufficient to increase the package version number in `package.json` (under `peerDependencies`). The version of this package should similarly be incremented with each such change.
 - This repo does not have its own example app, so this cannot be tested in isolation
+- Run `npm i` to update `package-lock.json` as well
 - To create and publish an updated tag:
   ```bash
   git tag 1.0.x
